@@ -1,0 +1,26 @@
+{
+  "name": "cloneytb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanelll/cloneytb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanelll/cloneytb/issues"
+  },
+  "homepage": "https://github.com/vanelll/cloneytb#readme",
+  "dependencies": {
+    "@babel/node": "^7.12.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.7"
+  }
+}
