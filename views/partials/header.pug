@@ -1,7 +1,10 @@
 header.header
     .header__column
         a(href=routes.home)
-            i.far.fa-grimace
+            i.fab.fa-grimace
+    .header__column
+        form(action=routes.search ,method="get", name="term")
+            input(type="text", placeholder= "Search by term")
     .header__column
         ul
             li 
