@@ -5,7 +5,17 @@ export const search= (req,res) =>{
     res.render("search", {pageTitle: "search", searchingBy, videos});
 };
 
-export const upload = (req, res) => res.render("upload", {pageTitle : "upload"});
+export const getUpload = (req, res) => {
+    res.render("upload", {pageTitle : "upload"});
+}
+
+export const postUpload = (req, res) => {
+    const {
+        body: {
+            file, title, description }
+    }= req;
+    res.redirect(routes.videoDetail(000));
+};
 
 export const videoDetail = (req, res) => res.render("videoDetail", {pageTitle : "videoDetail"});
 
