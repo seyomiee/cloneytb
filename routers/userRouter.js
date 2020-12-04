@@ -13,6 +13,6 @@ userRouter.get(routes.editProfile, editProfile);
 userRouter.get(routes.changePassword, (req, res) =>
   res.send("Change Password")
 );
-userRouter.get(routes.userDetail,userDetail);
+userRouter.get(routes.userDetail(),userDetail);
 
 export default userRouter;
