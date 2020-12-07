@@ -14,7 +14,7 @@ export const postUpload = (req, res) => {
         body: {
             file, title, description }
     }= req;
-    res.redirect(routes.videoDetail(000));
+    
 };
 
 export const videoDetail = (req, res) => res.render("videoDetail", {pageTitle : "videoDetail"});
