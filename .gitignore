@@ -105,3 +105,6 @@ dist
 
 db.js
 models/
+
+package-lock.json
+videos
