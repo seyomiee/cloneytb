@@ -13,7 +13,7 @@ export const home= async (req,res) => {
 
 export const search= (req,res) =>{
     const { query : { term : searchingBy }} =req;
-    res.render("search", {pageTitle: "search", searchingBy, videos});
+    res.render("search", {pageTitle: "search", searchingBy });
 };
 
 export const getUpload = (req, res) => {
