@@ -9,5 +9,9 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
+        "prettier/prettier": "off",
+        "no-console": "off",
+        "spaced-comment": "off",
+        "no-else-return": "off"
     }
 };
